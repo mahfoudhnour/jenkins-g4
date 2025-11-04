@@ -4,7 +4,7 @@ options { timestamps() }
 stages {
 stage('Cloner le dépôt') {
 steps {
-git url: 'https://github.com/Zayneeb/projetJenkins.git', branch: 'main'
+git url: 'https://github.com/mahfoudhnour/jenkins-g4', branch: 'master'
 }
 }
 stage('Étape 1 : Vérification du dépôt') {
